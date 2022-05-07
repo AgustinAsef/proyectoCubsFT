@@ -1,0 +1,377 @@
+/* general */
+.cartBackground {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100px;
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* tabla del carrito */
+.cartTable {
+  width: 100%;
+}
+
+/* boton del carrito */
+.cartButtonDiv {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 100px;
+  width: 100%;
+}
+
+/* general */
+* {
+  text-decoration: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.marginTop {
+  margin-top: 1rem;
+}
+
+.marginRight {
+  margin-right: 1rem;
+}
+
+.marginLeft {
+  margin-left: 1rem;
+}
+
+.textColor {
+  color: #360a50;
+}
+
+.hidden {
+  display: none;
+}
+
+/* botones */
+.buttonColor {
+  background-color: #360a50;
+  color: white;
+}
+
+.buttonColor :hover {
+  background-color: white;
+  color: #360a50;
+}
+
+.cartButton {
+  height: 40px;
+  width: 40px;
+}
+
+/* navegador */
+nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 100px;
+  width: 100%;
+}
+
+.imgNav {
+  height: 30px;
+  width: 30px;
+  background-color: #360a50;
+  border: solid #661694;
+}
+
+.divNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* productos */
+.bodyProducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.popUpBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popUpContainer {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  border: solid #360a50;
+  position: absolute;
+  margin: -300px 0 0 13px;
+  padding: 1rem;
+}
+
+.popUpImput {
+  width: 100%;
+}
+
+.popUpContainerButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.spanproductsAlerts {
+  position: fixed;
+  top: 0;
+  right: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.productsContainerButtons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 50px;
+  width: 100%;
+}
+
+.squareContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.squareContainerProduct {
+  width: 150px;
+  min-height: 100px;
+  max-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.squareRedAmaranthImg {
+  width: 100px;
+  height: 100px;
+  background-color: #f34b6d;
+  border: solid 5px red;
+}
+
+.squareRedAmaranthCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: #f34b6d;
+  border: solid 5px red;
+}
+
+.squareCarmineVermilionImg {
+  width: 100px;
+  height: 100px;
+  background-color: #e34233;
+  border: solid 5px #960018;
+}
+
+.squareCarmineVermilionCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: #e34233;
+  border: solid 5px #960018;
+}
+
+.squareMajorelleSapphireImg {
+  width: 100px;
+  height: 100px;
+  background-color: #0131b4;
+  border: solid 5px #0000e1;
+}
+
+.squareMajorelleSapphireCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: #0131b4;
+  border: solid 5px #0000e1;
+}
+
+.squarePrussiaMarineImg {
+  width: 100px;
+  height: 100px;
+  background-color: #120a8f;
+  border: solid 5px #003153;
+}
+
+.squarePrussiaMarineCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: #120a8f;
+  border: solid 5px #003153;
+}
+
+.squareSteelKleinImg {
+  width: 100px;
+  height: 100px;
+  background-color: lightsteelblue;
+  border: solid 5px #002fa7;
+}
+
+.squareSteelKleinCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: lightsteelblue;
+  border: solid 5px #002fa7;
+}
+
+.squarYellowAmberImg {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: solid 5px #ffc005;
+}
+
+.squarYellowAmberCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border: solid 5px #ffc005;
+}
+
+.squareTopazGoldenImg {
+  width: 100px;
+  height: 100px;
+  background-color: #e3a857;
+  border: solid 5px gold;
+}
+
+.squareTopazGoldenCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: #e3a857;
+  border: solid 5px gold;
+}
+
+.squarWhiteBlackImg {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: solid 5px black;
+}
+
+.squarWhiteBlackCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: solid 5px black;
+}
+
+.squareGreyBoneImg {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: solid 5px beige;
+}
+
+.squareGreyBoneCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border: solid 5px beige;
+}
+
+.squareBlackWhiteImg {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: solid 5px white;
+}
+
+.squareBlackWhiteCartImg {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border: solid 5px white;
+}
+
+.squareFeatures {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

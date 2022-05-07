@@ -1,0 +1,204 @@
+/* general */
+.spanproductsAlerts{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spanproductsSellSucces{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productsContainerButtons{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 50px;
+    width: 100%;
+}
+
+.squareContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.squareContainerProduct{
+    width: 150px;
+    min-height: 100px;
+    max-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.squareFeatures{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+
+/* colores de cada producto */
+
+.squareRedAmaranthImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 75, 109);
+    border: solid 5px rgb(255,0,0,);
+}
+
+.squareRedAmaranthCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(243, 75, 109);
+    border: solid 5px rgb(255,0,0,);
+
+}
+
+.squareCarmineVermilionImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb( 227,66,51);
+    border: solid 5px rgb(150,0,24);
+}
+
+.squareCarmineVermilionCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb( 227,66,51);
+    border: solid 5px rgb(150,0,24);
+
+}
+
+.squareMajorelleSapphireImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb( 1,49,180);
+    border: solid 5px rgb(0,0,225);
+}
+
+.squareMajorelleSapphireCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb( 1,49,180);
+    border: solid 5px rgb(0,0,225);
+
+}
+
+.squarePrussiaMarineImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(18,10,143);
+    border: solid 5px rgb(0,49,83);
+}
+
+.squarePrussiaMarineCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(18,10,143);
+    border: solid 5px rgb(0,49,83);
+}
+
+.squareSteelKleinImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(176,196,222);
+    border: solid 5px rgb(0,47,167);    
+}
+
+.squareSteelKleinCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(176,196,222);
+    border: solid 5px rgb(0,47,167);    
+}
+
+.squarYellowAmberImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255,255,0);
+    border: solid 5px rgb(255,192,5);    
+}
+
+.squarYellowAmberCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255,255,0);
+    border: solid 5px rgb(255,192,5);    
+}
+
+.squareTopazGoldenImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(227,168,87);
+    border: solid 5px rgb(255,215,0);    
+}
+
+.squareTopazGoldenCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(227,168,87);
+    border: solid 5px rgb(255,215,0);    
+}
+
+.squarWhiteBlackImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px rgb(0, 0, 0);    
+}
+
+.squarWhiteBlackCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px rgb(0, 0, 0);    
+}
+
+.squareGreyBoneImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 128, 128);
+    border: solid 5px rgb(245, 245, 220);    
+}
+
+.squareGreyBoneCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(128, 128, 128);
+    border: solid 5px rgb(245, 245, 220);    
+}
+
+.squareBlackWhiteImg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: solid 5px rgb(255, 255, 255);    
+}
+
+.squareBlackWhiteCartImg{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 5px rgb(255, 255, 255);    
+}
+
+

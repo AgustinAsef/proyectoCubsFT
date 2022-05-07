@@ -1,0 +1,83 @@
+/* general */
+
+*{
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+}
+
+.padding{
+    padding: 1rem;
+}
+
+.marginTop{
+    margin-top: 1rem;
+}
+
+.marginRight{
+    margin-right: 1rem;
+}
+
+.marginLeft{
+    margin-left: 1rem;
+}
+
+
+.textColor{
+    color: rgb(54, 10, 80)
+}
+
+.hidden{
+    display: none;
+}
+
+/* botones */
+
+.buttonColor{
+    background-color: rgb(54, 10, 80);
+    color: white;
+}
+
+.buttonColor :hover{
+    background-color: white;
+    color: rgb(54, 10, 80);
+}
+
+.cartButton{
+    height: 40px;
+    width: 40px;
+}
+
+/* navegador */
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    width: 100%;
+}
+
+.imgNav{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(54, 10, 80);
+    border: solid rgb(102, 22, 148)
+}
+
+.divNav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* productos */
+
+.bodyProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}

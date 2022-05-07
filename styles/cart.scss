@@ -1,0 +1,30 @@
+/* general */
+
+.cartBackground{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    min-height: 100px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+/* tabla del carrito */
+
+.cartTable{
+    width: 100%;
+}
+
+/* boton del carrito */
+
+.cartButtonDiv{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    width: 100%;
+}

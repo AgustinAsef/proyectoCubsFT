@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquareFT</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<header>
+    <!-- SquareFT es una pagina de venta de NFTs, por lo cual cada producto es unico y solo se puede vender 1 vez -->
+    <nav>
+        <div class="padding divNav">
+            <a href="./index.html"><button class="imgNav"></button></a>
+            <a href="./index.html"><p><strong><h3 class="textColor">SquareFT</h3></strong></p></a>
+        </div>
+        <div  class="padding divNav">
+            <button class="buttonColor cartButton" id="cartShowButton">        
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16" >
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>            
+                </div>
+            </button>
+        </div>
+    </nav>
+</header>
+<body>
+  <section class="bodyProductsContainer padding"> <!-- contenedor de los cuadrados -->
+    <div class="spanproductsAlerts" id="spanproductsAlerts"></div>  <!-- contenedor de las alertas -->
+    <div>
+      <p class="textColor"><strong>Squares rojos:</strong></p>
+      <div class="squareContainer" id="redSquareContainer"></div>
+      <hr>
+      <p class="textColor"><strong>Squares azules:</strong></p>
+      <div class="squareContainer" id="blueSquareContainer"></div>
+      <hr>
+      <p  class="textColor"><strong>Squares amarillos:</strong></p>
+      <div class="squareContainer" id="yellowSquareContainer"></div>
+      <hr>
+      <p class="textColor"><strong>Squares blancos:</strong></p>
+      <div class="squareContainer" id="whiteSquareContainer"></div>
+    </div>
+  </section>
+
+  <section class="cartBackground hidden" id="cart"> <!-- contenedor del carrito -->
+  </section>  
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script> <!-- agregue jquery por que me es mucho mas facil trabajar en js con el
+                                                             y no agregue la libreria de las alertas por que ya las habia hecho yo, igual si me recomiendan agregarlas las uso -->
+    <script src="./js/cart.js"></script>
+    <script src="./js/products.js"></script>
+</body>
+</html>
