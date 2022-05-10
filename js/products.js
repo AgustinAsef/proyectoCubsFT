@@ -21,9 +21,21 @@ class square{
 
 const squares = []
 
+fetch("./js/cubsFT.json")
+    .then((response) => response.json())
+    .then((data) => {
+        data.forEach(producto => {
+                console.log(producto)
+        });
+
+    });
+
+
 $(document).ready(function(){
+
     squareCarmineVermilion = new square ("Carmin-bermellón", 2300)
     squareRedAmaranth = new square ("Rojo-amaranto", 3200)
+
 
     total=squares.reduce((a, b) => a + b, 0);
     let squareTotal = total
