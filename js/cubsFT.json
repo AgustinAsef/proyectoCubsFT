@@ -1,12 +1,12 @@
 [
-  {"name": "Carmin-bermellón", "price":2300, "id":"rojos"},
-  {"name": "Rojo-amaranto", "price":3200, "id":"rojos"} ,   
-  {"name": "Majorelle-zafiro", "price":1200, "id":"azules"}, 
-  {"name": "Prussia-marino", "price":1500, "id":"azules"},  
-  {"name": "Acero-klein", "price":1700, "id":"azules"},  
-  {"name": "Amarillo-ambar", "price":3600, "id":"amarillos"},  
-  {"name": "Topacio-Oro", "price":5500, "id":"amarillos"},  
-  {"name": "Blanco-negro", "price":2200, "id":"blancos"},  
-  {"name": "Hueso-gris", "price":2300, "id":"blancos"},  
-  {"name": "Majorelle-zafiro", "price":2200, "id":"blancos"}  
+  {"nombre": "Carmin-bermellón", "precio":2300, "id":"rojos"},
+  {"nombre": "Rojo-amaranto", "precio":3200, "id":"rojos"} ,   
+  {"nombre": "Majorelle-zafiro", "precio":1200, "id":"azules"}, 
+  {"nombre": "Prussia-marino", "precio":1500, "id":"azules"},  
+  {"nombre": "Acero-klein", "precio":1700, "id":"azules"},  
+  {"nombre": "Amarillo-ambar", "precio":3600, "id":"amarillos"},  
+  {"nombre": "Topacio-Oro", "precio":5500, "id":"amarillos"},  
+  {"nombre": "Blanco-negro", "precio":2200, "id":"blancos"},  
+  {"nombre": "Hueso-gris", "precio":2300, "id":"blancos"},  
+  {"nombre": "Majorelle-zafiro", "precio":2200, "id":"blancos"}  
 ]

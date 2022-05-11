@@ -27,14 +27,16 @@ fetch("./js/cubsFT.json")
         data.forEach(producto => {
                 console.log(producto)
         });
-
     });
 
 
 $(document).ready(function(){
 
-    squareCarmineVermilion = new square ("Carmin-bermellón", 2300)
-    squareRedAmaranth = new square ("Rojo-amaranto", 3200)
+    fetch("./js/cubsFT.json") //trae los prodductos del json
+    .then((response) => response.json())
+    .then((cubs) => {
+        let squareRedAmaranth = cubs [1];
+        let squareCarmineVermilion = cubs [0]
 
 
     total=squares.reduce((a, b) => a + b, 0);
@@ -42,7 +44,7 @@ $(document).ready(function(){
     document.getElementById("cartSpamTotal").innerHTML = squareTotal
         
 
-   $("#redSquareContainer").append( /* spamea los productos en su lugar */
+   $("#redSquareContainer").append( // spamea los productos en su lugar
     `<div class="squareContainerProduct">
         <div class="squareRedAmaranthImg" id="squareRedAmaranthImg"></div>
         <div class="squareFeatures" id="squareRedAmaranthFeatures">
@@ -62,7 +64,7 @@ $(document).ready(function(){
       </div>
     </div>`
    )
-   $("#squareCarmineVermilionImg").click(function(){ /* funcionalidad del boton de agregar al carrito y spam en el carrito */
+   $("#squareCarmineVermilionImg").click(function(){ // funcionalidad del boton de agregar al carrito y spam en el carrito
     $("#squareCarmineVermilionFeatures").toggle(`0`)
     $("#buySquareCarmineVermilionButton").click(function(){
         if (sessionStorage.getItem("squareCarmineVermilioninCar") == 1) {
@@ -104,7 +106,7 @@ $(document).ready(function(){
         }
      })
 }) 
-   $("#squareRedAmaranthImg").click(function(){ /* funcionalidad del boton de agregar al carrito y spam en el carrito */
+   $("#squareRedAmaranthImg").click(function(){ // funcionalidad del boton de agregar al carrito y spam en el carrito 
     $("#squareRedAmaranthFeatures").toggle(`0`)
     $("#buySquareRedAmaranthButton").click(function(){
         if (sessionStorage.getItem("squareRedAmaranthCar") == 1) {
@@ -148,13 +150,19 @@ $(document).ready(function(){
 
     })
 })
-}) 
+})
+    .catch(()=>{
+        `<div class="squareContainerProduct">
+            <p> ERROR </p>
+        </div>`
+    })
+}); 
 
 $(document).ready(function(){
     squareMajorelleSapphire = new square ("Majorelle-zafiro", 1200)
     squarePrussiaMarine=new square ("Prussia-marino", 1500)
     squareSteelKlein=new square ("Acero-klein", 1700)
-    $("#blueSquareContainer").append( /* spamea los productos en su lugar */
+    $("#blueSquareContainer").append( // spamea los productos en su lugar 
     `<div class="squareContainerProduct">
         <div class="squareMajorelleSapphireImg" id="squareMajorelleSapphireImg"></div>
         <div class="squareFeatures" id="squareMajorelleSapphireFeatures">
@@ -183,7 +191,7 @@ $(document).ready(function(){
         </div>
     </div>`
     )
-    $("#squareMajorelleSapphireImg").click(function(){ /* funcionalidad del boton de agregar al carrito y spam en el carrito */
+    $("#squareMajorelleSapphireImg").click(function(){ // funcionalidad del boton de agregar al carrito y spam en el carrito
         $("#squareMajorelleSapphireFeatures").toggle(`0`)
         $("#buySquareMajorelleSapphireButton").click(function(){
             if (sessionStorage.getItem("squareMajorelleSapphireCar") == 1) {
